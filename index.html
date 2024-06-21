@@ -1,146 +1,307 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-    <meta charset="utf-8">
-    <title>Website Bussiness</title></title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <section>
-        <!--- navigation --->
-        <nav>
-            <!--- logo --->
-            <a href="#" class="logo"> Web bisnis</a>
-            <!--- menu --->
-            <ul>
-                <li><a href="#" class="active"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">coffee <i class="fas fa-mug-hot"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#book">book</a>
         </nav>
- 
-        <!--- text --->
-        <div class="text-container">
-            <p>hello!</p>
-            <p>I’M Liano</p>
-            <p>Salam jumpa kembali dalam website bussines,</p>
-            <p>Kopi keliling,
-              <p>mencoba secangkir kopi hanget yang
-              begitu harum sehingga dapat menikmati</p>
-            <br>indahnya dunia dengan nafas yang lega</p>
-            <div class="social-icons">
-           
-            
 
+        <a href="#" class="btn">book a table</a>
+    </header>
 
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>fresh coffee in the morning</h3>
+                <a href="#" class="btn">buy one now</a>
+            </div>
 
-
+            <div class="image">
+                <img src="image/home-img-1.png" class="main-home-image" alt="">
+            </div>
         </div>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <button class="hire-btn">Contact me Liano</button>
-            <td>:</td>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-            <button class="hire-btn">Wa 081238740658</button>
-            <button class="down-cv">on time 15:0-18:30</button>
+
+        <div class="image-slider">
+            <img src="image/home-img-1.png" alt="">
+            <img src="image/home-img-2.png" alt="">
+            <img src="image/home-img-3.png" alt="">
         </div>
-        <!-- model -->
-        <img alt="model" class="model" src="kopibiji.jpeg" style="width:450px;height:350px;">  
     </section>
-<!-- services -->
-    <div class="services">
-        <!--text-->
-        <div class="services-text ">
-            <p>Semoga anda berminat,thank you.</p>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1 class="heading">about us <span>why choose us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">what's make our coffee special!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum laboriosam reprehenderit ipsa id
+                    repellat odio illum, voluptas, necessitatibus assumenda adipisci. Hic, maiores iste? Excepturi illo
+                    dolore mollitia qui quia.</p>
+                <a href="#" class="btn">read more</a>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="image/about-icon-1.png" alt="">
+                        <h3>quality coffee</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/about-icon-2.png" alt="">
+                        <h3>our branches</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/about-icon-3.png" alt="">
+                        <h3>free delivery</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-         
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our menu <span>popular menu</span></h1>
+
         <div class="box-container">
-        <!--- 1 --->
-            <div class="box-1">
-                <span>1</span>
-                <p class="heading">Kopi Unggul</p>
-                <p class="details"></p>
-                <button>Can't click</button>
-            </div>
-        <!--- 2 --->
-            <div class="box-2">
-                <span>2</span>
-                <p class="heading">Kopi Biasa</p>
-                <p class="details"></p>
-                <button>Can't click</button>
-            </div>
-        <!--- 3 --->
-            <div class="box-3">
-                <span>3</span>
-                <p class="heading">#Kopi Unggul</p>
-                <p class="details"></p>
-                <button>Can't click</button>
-            </div>
+            <a href="#" class="box">
+                <img src="image/menu-1.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, sed.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-2.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, fugit.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-3.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, recusandae.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-4.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quas.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-5.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, vitae.</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <img src="image/menu-6.png" alt="">
+                <div class="content">
+                    <h3>our special coffee</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, expedita!</p>
+                    <span>$8.99</span>
+                </div>
+            </a>
         </div>
-    </div>
-<!--testimonials-->
-    <div class="testimoni">
-        <!--text-->
-        <div class="testimoni-text ">
-            <p>Selamat telah mengunjungi web ini</p>
-        </div>        
- 
-        <div class="testimoni-col">
-            <div class="testimoni-1">
-                <img src="y.jpeg">
-                <div>
-                    <p>level bintang yang panjang terkesan baik dalam kandungan kopi</p>
-                    <h3>#Khas manggarai#Flores</h3>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+    </section>
+
+    <!-- REVIEW -->
+    <section class="review" id="review">
+        <h1 class="heading">reviews <span>what people says</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="image/pic-1.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, earum quis dolorem quaerat tenetur
+                        illum.</p>
+                    <h3>john deo</h3>
+                    <span>satisfied client</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="image/pic-2.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio quasi ut, illo ipsam
+                        assumenda.</p>
+                    <h3>john deo</h3>
+                    <span>satisfied client</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="image/pic-3.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores aliquam hic quis!
+                        Eligendi, aliquam.</p>
+                    <h3>john deo</h3>
+                    <span>satisfied client</span>
+                </div>
+
+                <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="image/pic-4.png" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi modi perspiciatis distinctio
+                        velit aliquid a.</p>
+                    <h3>john deo</h3>
+                    <span>satisfied client</span>
                 </div>
             </div>
- 
-            <div class="testimoni-2">
-                <img src="f.jpg">
-                <div>
-                    <p>level bintang yang panjang terkesan baik dalam kandungan kopi</p>
-                    <h3>#Khas manggarai#Flores</h3>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book">
+        <h1 class="heading">booking <span>reserve a table</span></h1>
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Number" class="box">
+            <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> india</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> USA</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> france</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> africa</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> japan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+                <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+                <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#"><i class="fas fa-envelope"></i> coffee@gmail.com</a>
+                <a href="#"><i class="fas fa-envelope"></i> Perú, Lima</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
             </div>
         </div>
-    </div>
-<!-- footer -->
-    <footer>
-        <p>bagaimana kamu ingin mencobanya?bagus bukan</p>
-             
-        <!--paragraph-->
-        <p>Contact me,</p>
-        <!--social-->
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-            
+
+        <div class="credit">created by <span>mr. web designer</span> | all rights reserved</div>
+    </section>
 
 
 
 
-        </div>
-         
-        <!--copyright-->
-        <p class="copyright">Copyright Milianus evencus nando</p>
-    </footer>
- 
-    <!--social-attach-bar-->
-    <div class="social">
-       
 
 
-    </div>
+
+
+
+
+
+
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+
 </body>
- 
+
 </html>
